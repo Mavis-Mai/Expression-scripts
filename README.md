@@ -1,3 +1,6 @@
+## Dependent python package 
+python >= 3.8; pandas; scipy
+
 ## running 
 ```
 python 01runPearson.py [allexpressionfile] [targetExpression] [targetGenelist]
