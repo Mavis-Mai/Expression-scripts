@@ -90,6 +90,9 @@ class countPearson():
         newdata.to_csv(output,sep="\t",quoting=False,index=False,header=True)
 
 if __name__=="__main__":
+    fpkmfile=sys.argv[1]
+    tffpkmfile=sys.argv[2]
+    TFgroups=sys.argv[3]
     path=os.path.split(TFgroups)[0]
     fpkmfileName=os.path.split(fpkmfile)[1]
     if path=="":
